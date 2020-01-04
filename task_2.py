@@ -4,5 +4,5 @@ time = int(input("Введите время в секундах:"))
 hour =  int(time // 3600)
 minute = int(time % 3600 // 60)
 second = int(time % 3600 % 60)
-print(f"{hour}:{minute}:{second}")
+print(f"{hour:03}:{minute:02}:{second:02}")
 
